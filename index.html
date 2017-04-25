@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+  PO_ID:<br>
+  <input type="number" min= "0" max= "10000000000" name="PO_ID">
+  <br>
+  PO_OrderDate:<br>
+  <input type="date" name="PO_OrderDate">
+    <br>
+    PO_CreatedById:<br>
+  <input type="number" min= "0" max= "10000000000" name="PO_CreatedById">
+  <br>
+  PO_CreationDate: <br>
+  <input type="date" name="PO_CreationDate">
+    <br>
+    PO_ExpectedDate:<br>
+  <input type="date" name="PO_ExpectedDate">
+  <br>
+  PO_ShippingFee:<br>
+  <input type="number" step= ".01" name="PO_ShippingFee">
+    <br>
+    PO_Taxes:<br>
+  <input type="number" step= ".01"  name="PO_Taxes">
+  <br>
+  PO_PaymentDate:<br>
+  <input type="date" name="PO_PaymentDate">
+    <br>
+    PO_PaymentAmount:<br>
+  <input type="number" step= ".01"  name="PO_PaymentAmount">
+  <br>
+  PO_PaymentMethod:<br>
+  <input type="number" min= "0" max= "10000000000" name="PO_PaymentMethod">
+    <br>
+    PO_Notes:<br>
+  <input type="text" min= "0" max= "255" name="PO_Notes">
+  <br>
+  PO_OrderSubTotal:<br>
+  <input type="number" step= ".01" name="PO_OrderSubTotal">
+    <br>
+    PO_OrderTotal:<br>
+  <input type="number" step= ".01"  name="PO_OrderTotal">
+  <br>
+  PO_SubmittedById:<br>
+  <input type="number" min= "0" max= "10000000000" name="PO_SubmittedById">
+    <br>
+    PO_SubmittedByDate:<br>
+  <input type="date" name="PO_SubmittedByDate">
+  <br>
+  PO_ClosedById:<br>
+  <input type="number" min= "0" max= "10000000000" name="PO_ClosedById">
+    <br>
+    PO_ClosedDate:<br>
+  <input type="date" name="PO_ClosedDate">
+  <br>
+  PO_IsCompleted:<br>
+  <input type="number" min= "0" max= "10000000000" name="PO_IsCompleted">
+    <br>
+    PO_IsSubmitted:<br>
+  <input type="number" min= "0" max= "10000000000" name="PO_IsSubmitted">
+  <br>
+  PO_IsNew:<br>
+  <input type="number" min= "0" max= "10000000000" name="PO_IsNew">
+    <br>
+    PO_StatusText:<br>
+  <input type="text" min= "0" max= "255" name="PO_StatusText">
+  <br>
+  <br><br>
+  <input type="submit" value="Submit">
+  
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
